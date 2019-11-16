@@ -43,5 +43,7 @@ function exerciseDog(dogName, dogBreed) {
     let r = routine[i];
     newArr.push(r(dogName, dogBreed));
   }
-  newArr
+  return newArr;
 }
+
+exerciseDog('eloisa', 'human');
