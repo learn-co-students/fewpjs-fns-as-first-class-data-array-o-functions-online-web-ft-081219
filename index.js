@@ -30,6 +30,7 @@ function unleashDog(dogName, dogBreed) {
 
 var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
+//function that loops through a function array
 function exerciseDog(dogName, dogBreed) {
     let newArray = [];
     for (let i = 0; i < routine.length; i++) {
